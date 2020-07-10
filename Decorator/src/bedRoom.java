@@ -17,7 +17,7 @@ public class bedRoom implements room{
 
     @Override
     public void printDescription(){
-        System.out.println("a " + this.area + "m2 old bed room");
+        System.out.println(this.area + "m2 old bed room");
     }
     
 }
