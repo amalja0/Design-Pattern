@@ -8,6 +8,7 @@ public class Main {
 
         myBedRoom.printDescription();
         myBedRoomNewDesign.printDescription();
+        System.out.println("--------------------------");
         myLivingRoom.printDescription();
         myLivingRoomNewDesign.printDescription();
     }
