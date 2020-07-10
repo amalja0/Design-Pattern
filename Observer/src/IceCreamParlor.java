@@ -4,9 +4,7 @@ public class IceCreamParlor implements aSubject{
     private ArrayList<anObserver> observers;
 
     private double price;
-    // private double discount;
     private Menu menu;
-    // private ArrayList<String> toppigs;
 
     public IceCreamParlor(){
         observers = new ArrayList<>();

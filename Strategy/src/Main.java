@@ -17,8 +17,8 @@ public class Main {
         }
         System.out.println("--------------------------------------------");
         System.out.println("List Bahan Tersedia setelah membuat makanan");
-        proceedIngredients bahan2 = new proceedIngredients(new cookedIngredients(bahanYangAda));
-        for(String a: bahan2.proceedingBahan("Pudding", "Vanilla Extract")){
+        bahan1 = new proceedIngredients(new cookedIngredients(bahanYangAda));
+        for(String a: bahan1.proceedingBahan("Pudding", "Vanilla Extract")){
             System.out.println(a);
         }
     }
